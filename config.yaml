@@ -2,10 +2,10 @@ baseurl: https://a2798528624.github.io #填你的网站地址
 languageCode: zh-CN
 theme: hugo-theme-stack
 paginate: 5
-title: KermsBlog
+title: hugoBlog
 
 # Change it to your Disqus shortname before using
-disqusShortname: hugo-theme-stack
+disqusShortname: 11
 
 # GA Tracking ID
 #googleAnalytics:
@@ -24,7 +24,7 @@ permalinks:
 
 params:
     mainSections:
-        - about #设置网站首页要展示的Section，一般设成post。这样就会默认展示post文件夹里面的内容。
+        - post #设置网站首页要展示的Section，一般设成post。这样就会默认展示post文件夹里面的内容。
     featuredImageField: image
     rssFullContent: true
     favicon:
